@@ -1,16 +1,22 @@
+
 <template>
-  <div class="home">
-  </div>
+  <div></div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+  components: {},
+  props: {},
+  data() {
+    return {
+    };
+  },
+  watch: {},
+  computed: {},
+  methods: {},
+  created() {},
+  mounted() {}
+};
 </script>
+<style lang="scss" scoped>
+</style>
